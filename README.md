@@ -7,17 +7,17 @@ Generates a list of seeds rolled by a specific user in MCSR Ranked, macro create
 - Double-click `retrieve_seeds.py`. The first time you run this file, you may see an installation message in the window. That is Python installing the module `requests`, which is required to fetch the API from MCSR Ranked.
 - You should see the following message:
 
-<img src="https://user-images.githubusercontent.com/110107468/220834576-572be293-c238-4a13-af27-c41cf3241bde.png" width="35%"/>
+<img src="https://user-images.githubusercontent.com/110107468/220834576-572be293-c238-4a13-af27-c41cf3241bde.png" width="45%"/>
 
 - Enter the user's Minecraft username and press `Enter`. A list of seeds rolled by that user will be written to `seeds.txt`. _This overwites anything currently in `seeds.txt`._
 - Press `Enter` to exit the program.
 
-<img src="https://user-images.githubusercontent.com/110107468/220834692-5d6b5d12-8761-4705-9175-8812007d69b6.png" width="35%"/>
+<img src="https://user-images.githubusercontent.com/110107468/220834692-5d6b5d12-8761-4705-9175-8812007d69b6.png" width="45%"/>
 
 - If you would like to change the hotkey for creating a world with a practice seed (default is `Ctrl-R`), right-click `practice_seeds.ahk` and click "Edit Script".
 - Edit the following part of the script highlighted in blue (`^` denotes `Ctrl`).
 
-<img src="https://user-images.githubusercontent.com/110107468/220838134-9b630389-8c7a-40f4-aeae-077b70110803.png" width="25%"/>
+<img src="https://user-images.githubusercontent.com/110107468/220838134-9b630389-8c7a-40f4-aeae-077b70110803.png" width="30%"/>
 
 - Once you're done, save the file and close it.
 - Run `practice_seeds.ahk` by double-clicking it. Nothing should happen yet.
