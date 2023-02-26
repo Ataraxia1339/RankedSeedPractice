@@ -3,7 +3,7 @@ Generates a list of seeds rolled by a specific user in MCSR Ranked, macro create
 
 ## Setup
 - Install [Python 3](https://www.python.org/downloads/) and [AutoHotkey](https://www.autohotkey.com/) if you don't have them.
-- Download and extract [RankedSeeds.zip](https://github.com/Ataraxia1339/RankedSeedPractice/releases/download/v1.0/RankedSeeds.zip). If you want to move one or more of the files to your Desktop (or some other location) for easy access, either move all the files, or create a shortcut on your Desktop that points to the script you want to run.
+- Download and extract [RankedSeeds.zip](https://github.com/Ataraxia1339/RankedSeedPractice/releases/download/v1.1/RankedSeeds.zip). If you want to move one or more of the files to your Desktop (or some other location) for easy access, either move all the files, or create a shortcut on your Desktop that points to the script you want to run.
 - Double-click `retrieve_seeds.py`. The first time you run this file, you may see an installation message in the window. That is Python installing the module `requests`, which is required to fetch the API from MCSR Ranked.
 - You should see the following message:
 
