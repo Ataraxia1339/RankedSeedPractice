@@ -26,7 +26,6 @@ Generates a list of seeds rolled by a specific user in MCSR Ranked, macro create
   - If `seeds.txt` is empty, a message box will appear and the program will exit. You will now have to repopulate `seeds.txt` by running `retrieve_seeds.py` with a different username.
 
 ## Known Issues
-- Some runners have rolled the same seed multiple times. If they did not change the seed, that seed will show up as a duplicate in `seeds.txt`. This may be fixed in the future if I rewrite a bit of the code structure.
 - If running `retrieve_seeds.py` results in a Permission Error (the program does not have permissions to write to seeds.txt), it might be caused by running the program from the command line. Try double-clicking the `retrieve_seeds.py` file instead.
 - If the macro does not input a seed properly, you likely:
   - do not have at least one world in your saves folder.
